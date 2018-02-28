@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://gillmarketinggroup.com/wp-content/uploads/2015/07/Inspiration.jpg');
+      background-size: cover;
+      color: black;
+      font-family: 'Pacifico', cursive;
+    }
+    a {
+      color: brown;
+      font-family: 'Pacifico', cursive;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 0px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(70,90,90,0.50);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+      font-family: 'Pacifico', cursive;
+    }
+    img{
+      width: 190;
+      border-radius:100;
+    }
+     body {
+      background: #E18B6B;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+     li {
+        padding: 5px;
+        display: block;
+      }
+    }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <img src="http://ak5.picdn.net/shutterstock/videos/10624985/thumb/4.jpg">
+    <h1>Maliha's Blog</h1>
+    <ul>
+      <li><a href="#"> My story</a></li>
+      <li><a href="#">My qoutes</a></li>
+      <li><a href="#">Be inspired</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>My journey </h2>
+    <p>After graduating and teaching English in Spain for a few years, Liz fell in love with travel. However, she ended up moving home to Washington, D.C., and working in a dead-end office job trying to follow the path that she felt as if she were supposed to be following. It didn't take long for her to realize that button-ups and quarterly meeting weren't for her. The nine-to-five scene was becoming suffocating and she could feel herself growing increasingly unhappy.
+</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>My motivation</h2>
+    <p>After five-plus years of working as a corporate lawyer in New York, Montrealer Jodi Ettenberg decided to pack it up and eat her way around the world for a year. Next thing she knew, one year turned into another and another, and she's now nearing six years of travel to faraway places. While she jokes that she "eats soup for a living", she's not too far off: Her site, Legal Nomads (which she started to keep her mother updated about her travels) houses photos of foods from around the world. Though Legal Nomads is unmonetized (she has turned down sponsored links or ads), Jodi supports herself with freelance writing, consulting work in social media, and, more recently, feeding her hungry eaters when they visit Saigon.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>My way of changing the world</h2>
+    <artciel>
+    Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it's the only thing that ever has. Education is the most powerful weapon which you can use to change the world. I tried to change the world, but I was outnumbered. Making one person smile can change the world.</p>
+    </artciel>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Like!");
+    });
+  </script>
+</body>
