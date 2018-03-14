@@ -123,12 +123,9 @@
         <li><a href="https://www.outsideonline.com/2157421/best-adventure-photography-exposure-2017">Photography</a></li>
       </ul><br>
       <div class="input-group">
-        <input type="text" class="form-control" placeholder="Search Blog..">
-        <span class="input-group-btn">
-          <button class="btn btn-default" type="button">
-            <span class="glyphicon glyphicon-search"></span>
-          </button>
-        </span>
+	<form>
+	<p>Search: <input id="keywords" size="24" placeholder="start typing"></p>
+	</form>
       </div>
     </div>
 
@@ -199,6 +196,19 @@ Throughout life, we accumulate an endless number of experiences, the majority of
   <p>Foot note</p>
 </footer>
 
+<script type="text/javascript" src="/hilitor.js">
+</script>
+
+<script type="text/javascript">
+  var myHilitor;
+  document.addEventListener("DOMContentLoaded", function(e) {
+    myHilitor = new Hilitor2("playground");
+    myHilitor.setMatchType("left");
+  }, false);
+  document.getElementById("keywords").addEventListener("keyup", function(e) {
+    myHilitor.apply(this.value);
+  }, false);
+</script>
 
 </body>
 
