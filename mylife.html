@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>blogging</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #F8B195;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #FFA07A;
+      color: white;
+      padding: 15px;
+  }
+  body {
+
+	  background-size: 100% 50%; 
+      color: black ;
+	  font-size: 25px;
+	  font-family: 'Coiny', cursive;
+	  
+   }
+   
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+
+    }
+    .carousel-inner img {
+        -webkit-filter: colorscale(90%);
+        filter: colorscale(90%); /* make all photos black and white */ 
+        width: 100%; /* Set width to 100% */
+        margin: auto;
+    }
+    .carousel-caption h3 {
+        color: #fff !important;
+    }
+	.carousel-inner > .item > img {
+		height: 750px;
+	}
+    @media (max-width: 600px) {
+      .carousel-caption {
+        display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+      }
+    }
+	
+  </style>
+</head>
+
+<body>
+	
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="https://i.pinimg.com/originals/6a/78/f4/6a78f4428c326f1bfe3e9c50d7d8c649.jpg" alt="New York" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>nature</h3>
+          <p>The view filled my heart</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="https://www.google.com/search?q=image+of+girl+hiking&safe=strict&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjvyca_jOzZAhXNx1kKHZ62D2EQ_AUICigB&biw=1917&bih=979#imgdii=qmYBGYrMgSihmM:&imgrc=8XZKBp8GGdo8rM:">
+        <div class="carousel-caption">
+          <h3>hiking</h3>
+          <p>Felt like i was at the top of the world</p>
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="https://4arv8d33nwtn2c196j3gh87r-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/BOX_Blog77.png" alt="Los Angeles" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>photography</h3>
+          <p>my inspiration</p>
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      <h4>maliha's Blog</h4>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#section1">Home</a></li>
+        <li><a href="http://theadventureblog.blogspot.com/">adventure</a></li>
+        <li><a href="https://www.nomadicmatt.com/travel-blogs/best-blogs-of-2015/">traveling</a></li>
+        <li><a href="https://www.outsideonline.com/2157421/best-adventure-photography-exposure-2017">Photography</a></li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search Blog..">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-sm-9">
+      <h4><small>RECENT POSTS</small></h4>
+      <hr>
+      <h2>I love to travel and photograph</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by maliha, march 8, 2018.</h5>
+      <h5><span class="label label-danger">adventure</span> <span class="label label-primary">story time</span></h5><br>
+      <p>We all have a life story.   A life story is my personal account of all the important events and experiences that have contributed to my becoming who I am today. Because my life story explains how I became who I am it plays a significant role in shaping the way I define myself.
+
+Throughout life, we accumulate an endless number of experiences, the majority of which we later have no memory or recollection.  Our brains cannot possibly store a detailed account of every waking minute of every day we are alive.  Thus, it must filter and prioritize in order to decide which experiences to preserve and which to discard.</p>
+      <br><br>
+      
+      <h4><small>updates</small></h4>
+      <hr>
+      <h2>RECENT Story</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by maliha, Sep 24, 2015.</h5>
+      <h5>traveling to marrakesh<span class="label label-success">Lorem</span></h5><br>
+      <p>It was loud, it was colorful, many different smells run through our noses. It was truly a wow-experience to get to know Marrakesh. One day we got the opportunity to hop on a bus to a desert adventure. It was a bus tour with local guides on their way to the far desert, stopping at a few small towns in the mountains. On the way we crossed the majestic Atlas Mountains, and there are tons of tiny villages hidden in the middle of nowhere.</p>
+      <hr>
+
+      <h4>Leave a advice:</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">claim</button>
+      </form>
+      <br><br>
+      
+      <p><span class="badge">2</span> statement:</p>leave a heart <3 ><br>
+      
+      <div class="row">
+        <div class="col-sm-2 text-center">
+          <img src="https://i2.wp.com/tricksprout.com/wp-content/uploads/2017/07/Screenshot_20170724_142631.png?resize=447%2C489&ssl=1" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>nina <small>jan 29, 2017, 9:12 PM</small></h4>
+          <p>omg ur amazing at ur photography. i see my dreams in ur photographs</p>
+          <br>
+        </div>
+        <div class="col-sm-2 text-center">
+          <img src="https://i0.wp.com/tricksmaze.com/wp-content/uploads/2017/10/Stylish-Girls-Profile-Pictures-2.jpg?resize=548%2C548&ssl=1" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>bright_side <small>oct 5, 2017, 8:25 PM</small></h4>
+          <p>you are a amazing person. i love your stories. keep up the good life</p>
+          <br>
+          <p><span class="badge">1</span> statement:</p><br>
+          <div class="row">
+            <div class="col-sm-2 text-center">
+              <img src="https://www.trickscity.com/wp-content/uploads/2017/01/stylish-selfie-photo-for-girls.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+            </div>
+            <div class="col-xs-10">
+              <h4>moymun <small>jan 15, 2018, 8:28 PM</small></h4>
+              <p>keep traveling and live the life u dreamed of!!</p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid">
+  <p>Foot note</p>
+</footer>
+
+
+</body>
+
+</html>
