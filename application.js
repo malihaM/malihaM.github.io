@@ -1,10 +1,10 @@
 var config = {
-    apiKey: "AIzaSyD90XsWJOANcVOu11tyrWUt0aDv0EBysX0",
-    authDomain: "newcomments-4e8a0.firebaseapp.com",
-    databaseURL: "https://newcomments-4e8a0.firebaseio.com",
-    projectId: "newcomments-4e8a0",
-    storageBucket: "",
-    messagingSenderId: "182797535899"
+    apiKey: "AIzaSyDhB36dMMLYoFQPFIWEQk2oMThMnA_qVW0",
+    authDomain: "my-blog-12dd4.firebaseapp.com",
+    databaseURL: "https://my-blog-12dd4.firebaseio.com",
+    projectId: "my-blog-12dd4",
+    storageBucket: "my-blog-12dd4.appspot.com",
+    messagingSenderId: "11434689364"
 };
 
 // Initialize your Firebase app
